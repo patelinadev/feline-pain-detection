@@ -1,0 +1,30 @@
+# 原始数据集（2.1 GB，绝对不能进仓库）
+data/raw/
+data/pain/
+data/no_pain/
+*.jpg
+*.jpeg
+*.png
+!results/*.png
+
+# 模型权重
+checkpoints/*.pth
+checkpoints/*.pt
+
+# 第三方版权材料 / 内部文档
+docs/*.pdf
+docs/*.docx
+docs/PROJECT_SUMMARY_FOR_RESUME_REVIEW.md
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# macOS / 编辑器
+.DS_Store
+.claude/
+.idea/
+.vscode/
+docs/FELINE_PAIN_DETECTION_INSTRUCTIONS_v1.md
